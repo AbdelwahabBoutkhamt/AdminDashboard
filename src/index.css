@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
+
+html,
+body,
+#root,
+.app,
+.content {
+  font-family: "Source Sance Pro", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.department-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.department-table th,
+.department-table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.department-table input[type="text"] {
+  width: 100%;
+  padding: 5px;
+}
